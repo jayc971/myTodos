@@ -21,7 +21,7 @@ export default async function Home() {
   const data = await getData();
   return (
     <div className="w-screen py-20 flex justify-center flex-col items-center">
-      <h1 className="text-4xl font-extrabold uppercase">My Todos</h1>
+      <h1 className="text-4xl font-extrabold uppercase mb-5">My Todos</h1>
       <div className="flex justify-center flex-col items-center">
         <AddTask/>
         <div className="flex flex-col gap-5 items-center justify-center mt-10 w-screen">
